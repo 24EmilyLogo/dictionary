@@ -1,9 +1,4 @@
-//this is an object (I'm just using this as an example)
-const doot = {
-    beep: "boop",
-    sneep: "snoop",
-}
-//the actual stuff
+//object with all of the words and definitions
 const words = {
     yesWord: [
         "noun",
@@ -50,4 +45,7 @@ const words = {
         "noun",
         "A sudden and ignominious failure; a fiasco"
     ],
+}
+function findDefinition(){
+    //
 }
