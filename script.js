@@ -46,6 +46,20 @@ const words = {
         "A sudden and ignominious failure; a fiasco"
     ],
 }
+console.log(words.hasOwnProperty('yesWord'));
+console.log(words.hasOwnProperty('debacleWord'));
+console.log(words.hasOwnProperty('nopeWord'));
+console.log(words.hasOwnProperty('helloWord'));
+//variables for html stuff
+var wordsInput = document.getElementById("wordInput")
 function findDefinition(){
+    //1. have code read the input (That's the onclick in the index.html file)
     //
+    //2. change input casing to streamline the code reading it
+    wordsInput.toLowerCase()
+    //3. find if it is a registered word in the object "words"
+    for(i = 0; i < words; i++){}
+
+        //a. output word, PoS, & definition if it is in the dictionary
+        //b. if not, output "I'm sorry, that word is not registered in the dictionary"
 }
