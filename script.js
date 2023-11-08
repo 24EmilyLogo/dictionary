@@ -46,10 +46,6 @@ const words = {
         "A sudden and ignominious failure; a fiasco"
     ],
 }
-    // console.log(words.hasOwnProperty('yes'));
-    // console.log(words.hasOwnProperty('debacle'));
-    // console.log(words.hasOwnProperty('nope'));
-    // console.log(words.hasOwnProperty('hello'));
 //variables for html stuff
 var definitionReplace = document.getElementById("definition")
 var wordsInput = document.getElementById("wordInput")
