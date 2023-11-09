@@ -53,8 +53,9 @@ var wordsInput = document.getElementById("wordInput")
     //1. have code read the input (That's the onclick in the index.html file)
 function findDefinition(){
     //2. change input casing to streamline the code reading it
-    if(wordsInput && wordsInput.value){
-        let lcWordsInput = wordsInput.value.toLowerCase();
+    for(i=0; i < words.hasOwnProperty; i++){
+        //if(wordsInput && wordsInput.value){
+            let lcWordsInput = wordsInput.value.toLowerCase();
         //3. find if it is a registered word in the object "words"
         // for(i = 0; i < words; i++){
             if(words.hasOwnProperty(lcWordsInput)){
@@ -63,8 +64,9 @@ function findDefinition(){
             }else{
                 definitionReplace.innerText = "I'm sorry, that word is not registered in the dictionary."
             }
-    }else{
-        definitionReplace.innerText = "Invalid input"
+        // }else{
+        //     definitionReplace.innerText = "Invalid input"
+        // }
     }
 
         //a. output word, PoS, & definition if it is in the dictionary
