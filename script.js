@@ -55,12 +55,6 @@ const words = {
         pos:"noun",
         defs:["A sudden and ignominious failure; a fiasco"]
     },
-    "dnd":{
-        pos:"noun",
-        defs:[
-            "A game played by 1 or more players using dice, character, sheets, and imagination. The term Dungeons and Dragons is trademarked."
-        ]
-    },
 }
 //variables for html stuff
 var definitionReplace = document.getElementById("definition")
